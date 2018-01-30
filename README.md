@@ -8,7 +8,7 @@ Lastly, the program asks you where you would like to write the encrypted message
 
 This is what the terminal will look like when it is run:
 
-Chris@DESKTOP-TA80HE1 MINGW64 ~/Documents/cryptoPy (master)
+~/Documents/cryptoPy (master)
 $ python caesarCipher.py     
 What is the name of the file that you would like to encrypt?originalMessage.txt     
 How much would you like to shift by?(0-26)5     
