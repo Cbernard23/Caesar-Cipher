@@ -7,7 +7,7 @@ def readFile():
 	inFile = open(fileName, "r")
 	inputString = inFile.read()
 	inFile.close();
-	print(inputString)
+	#print(inputString)
 	return inputString
 
 def encrypt(iString):
@@ -27,12 +27,21 @@ def encrypt(iString):
 		else:
 			nval = nval - shifter
 		nString += chr(nval)
-	print(nString)
+	#print(nString)
+	return nString
+
+def writeToFile(iString):
+	fileName = input("Where would you like to write the encrypted message?")
+	outFile = open(fileName, "w")
+	outFile.write(iString)
+	outFile.close()
+
+
 
 def main():
 	inputString = readFile()
-	encrypt(inputString)
-
+	encryptedString = encrypt(inputString)
+	writeToFile(encryptedString)
 
 if __name__ == "__main__":
 	main()
