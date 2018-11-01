@@ -1,5 +1,5 @@
 # Caesar-Cipher
-Performs a Caesar Cipher encryption on a file and writes the contents to a new file.
+Performs a Caesar Cipher "encryption" on a file and writes the contents to a new file.
 The program will first ask you for an input file, which should contain the message that you wish to be encrypted.
 The program will then ask you how many places you would like to shift the message.
 This is how a caesar cipher encryption works. 
